@@ -9,16 +9,22 @@ body {
 }
 
 div {
-  width: 100%;
-  margin: 20px;
+  
+  width: 50%;
+  float: left;
+
+
 }
 
 div li {
   display: flex;
   align-items: center;
+  text-align: left;
+
 }
 
 div li + li {
+  align-content: center;
   margin-top: 15px;
 }
 
@@ -31,9 +37,30 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 5px;
 }
 
 div li button {
   margin: 0 15px;
+  border-radius: 5px;
   background: #ca4949;
+  align-content: center;
+}
+
+#gs {
+  float: right;
+  position: absolute;
+  right: 0px;
+}
+
+.repo {
+  width: 200%;
+  padding-top: 30px;
+  padding-left: 100px;
+
+}
+
+h2 {
+  font-weight: 400;
+  text-align: center;
 }
